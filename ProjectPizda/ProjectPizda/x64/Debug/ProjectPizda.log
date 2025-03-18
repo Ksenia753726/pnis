@@ -1,0 +1,17 @@
+﻿  mainayra.cpp
+C:\прога\дз\ProjectPizda\Header.h(17,23): warning C4244: аргумент: преобразование "T" в "int64_t", возможна потеря данных
+C:\прога\дз\ProjectPizda\Header.h(17,23): warning C4244:         with
+C:\прога\дз\ProjectPizda\Header.h(17,23): warning C4244:         [
+C:\прога\дз\ProjectPizda\Header.h(17,23): warning C4244:             T=double
+C:\прога\дз\ProjectPizda\Header.h(17,23): warning C4244:         ]
+  (компиляция исходного файла "mainayra.cpp")
+  C:\прога\дз\ProjectPizda\Header.h(17,23):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\прога\дз\ProjectPizda\mainayra.cpp(36,3):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void Input_Array<double>(T *,int32_t &)"
+          with
+          [
+              T=double
+          ]
+  
+  ProjectPizda.vcxproj -> C:\прога\дз\ProjectPizda\x64\Debug\ProjectPizda.exe
